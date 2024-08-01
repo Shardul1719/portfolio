@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul{
+    display: flex;
+    justify-content: centre;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(153, 153, 226)
+}
+
+main hr {
+    border: 0;
+    background-color:rgb(153, 153, 226) ;
+    height: 1px;
+    margin: 40px 84px;
+}
+
+#element {
+    color: blueviolet
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 2rem; 
+ 
+}
+
+.purple {
+    color: blueviolet;
+}
+
+.about {
+    margin-left: 7%;
+    margin-right: 50%;
+    max-width: 60vw;
+    height: 0vh;
+    font-size: 1.4rem;
+}
+
+.rightabout {
+    margin: 0 0 0 900px;
+}
+
+.skill {
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 1.4rem;
+    height: 0vh;
+}
+
+.rightskills {
+    margin: 0 0 0 900px;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 120vh;
+}
+
+.secondsection img {
+    width: 80%;
+    margin: 0 0 0 110px;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+    margin-right: 370px;
+  }
+  
+  #btn:hover,
+  :focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+      0 0 100px #008cff;
+  }
+  
+h2{
+    display: flex;
+    justify-content: space-around;
+}
+.button-icon {
+  display: flex;
+  border: 3px #fff solid;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+  margin-left: 40%;
+}
+
+.icon {
+  background-color: #fff;
+  padding: 10px 10px 5px 10px;
+}
+
+.icon svg {
+  width: 25px;
+  height: 25px;
+}
+
+.cube {
+  transition: all 0.4s;
+  transform-style: preserve-3d;
+  width: 200px;
+  height: 20px;
+}
+
+.button-icon:hover {
+  border-color: #ff98a2;
+}
+
+.button-icon:hover .cube {
+  transform: rotateX(90deg);
+}
+
+.side {
+  position: absolute;
+  height: 47px;
+  width: 200px;
+  display: flex;
+  font-size: 0.8em;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.top {
+  background: blueviolet;
+  color: #fff;
+  transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+}
+
+.front {
+  background: #222229;
+  color: #fff;
+  transform: translate3d(0, 0, 1em);
+}
+
+.thirdsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 120vh;
+}
+
+.thirdsection img {
+    width: 80%;
+    margin: 0 0 0 110px;
+    border-style: solid;
+    border-radius: 5%;
+    border-color: blueviolet;
+    
+}
+
+.fourthsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 120vh;
+}
+
+.fourthsection img {
+    width: 80%;
+    margin: 0 0 0 110px;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+footer {
+    background-color: rgb(66, 63, 114);
+    height: 260px;
+}
+.footer {
+    
+    padding: 23px 122px;;
+}
+
+.footer-first {
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-second li {
+    list-style: none;
+    margin-top: 3%;
+    
+}
+
+.footer-third li {
+    list-style: none;
+    margin-top: 3%;
+    
+}
+
+.footer-fourth li {
+    list-style: none;
+    margin-left: 69%;
+}
+
+.footer-fourth li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 17px;
+}
+
+.footer-fifth li {
+    list-style: none;
+    margin: 0 883px;    
+}
+
+.footer-fifth li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 100px;
+}
